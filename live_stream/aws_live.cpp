@@ -14,13 +14,13 @@ aws_live::~aws_live()
 
 int aws_live::init_live_stream()
 {
-	char *key_id_env = "AWS_ACCESS_KEY_ID"; 	   
-	char *secret_key_env = "AWS_SECRET_ACCESS_KEY";
+	char *key_id_env = "xxx"; 	   
+	char *secret_key_env = "fff";
 
-	setenv(key_id_env, "AKIAJXWNCOU3DWMJNF5A", 1);
-	setenv(secret_key_env, "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", 1);	
+	setenv(key_id_env, "ddddddd", 1);
+	setenv(secret_key_env, "dddddd", 1);	
 	
-	log4cplus::PropertyConfigurator::doConfigure("kvs_log_configuration");
+	log4cplus::PropertyConfigurator::doConfigure("ddddd");
 	
   return 0;
 }
